@@ -102,7 +102,7 @@ public class Interface2 extends JFrame {
     }
 
     private void showDateTime() {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
         textArea.append("Current Date and Time: " + now.format(formatter) + "\n");
     }
